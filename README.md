@@ -4,7 +4,7 @@
 
 API REST completa para gerenciamento de tarefas, desenvolvida com **Node.js**, **Express**, **MongoDB** e **JWT** para autenticação.
 
-## 🚀 Tecnologias
+## Tecnologias
 - Node.js
 - Express
 - MongoDB + Mongoose
