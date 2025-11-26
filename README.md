@@ -13,21 +13,13 @@ API REST completa para gerenciamento de tarefas, desenvolvida com **Node.js**, *
 - Bcrypt (hash de senhas)
 
 ## Instalação
-
-Clone o repositório:
-```bash
-git clone https://github.com/Leandrosilva20/task-manager-backend.git
-```
-
-Entre na pasta do projeto:
-```bash
-cd task-manager-backend
-```
+cd "C:\Users\usuario\Downloads\task_manager_mongoose_backend"
 
 Instale as dependências:
 ```bash
 npm install
 ```
+npm start
 
 ## Configuração
 
@@ -77,7 +69,6 @@ Rodar testes com Jest:
 npm test
 ```
 
----
 
 ## Autor
 **Leandro Bragança da Silva**
