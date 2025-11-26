@@ -4,7 +4,7 @@
 
 API REST completa para gerenciamento de tarefas, desenvolvida com **Node.js**, **Express**, **MongoDB** e **JWT** para autenticação.
 
-## Tecnologias
+##  Tecnologias
 - Node.js
 - Express
 - MongoDB + Mongoose
@@ -12,16 +12,24 @@ API REST completa para gerenciamento de tarefas, desenvolvida com **Node.js**, *
 - Joi (validação)
 - Bcrypt (hash de senhas)
 
-## Instalação
-cd "C:\Users\usuario\Downloads\task_manager_mongoose_backend"
+##  Instalação
+
+Clone o repositório:
+```bash
+git clone https://github.com/Leandrosilva20/task-manager-backend.git
+```
+
+Entre na pasta do projeto:
+```bash
+cd task-manager-backend
+```
 
 Instale as dependências:
 ```bash
 npm install
 ```
-npm start
 
-## Configuração
+##  Configuração
 
 Crie um arquivo `.env` na raiz do projeto com as variáveis de ambiente:
 
@@ -31,7 +39,7 @@ MONGO_URI=mongodb://localhost:27017/taskmanager
 JWT_SECRET=seu_segredo_aqui
 ```
 
-## Executando
+##  Executando
 
 Inicie o servidor:
 ```bash
@@ -49,7 +57,7 @@ Server running on port 3000
 Connected to MongoDB
 ```
 
-## Rotas principais
+##  Rotas principais
 
 ### Autenticação
 - `POST /signup` → Criar usuário
@@ -62,15 +70,15 @@ Connected to MongoDB
 - `PUT /tasks/:id` → Atualizar tarefa
 - `DELETE /tasks/:id` → Deletar tarefa
 
-## Testes
+##  Testes
 
 Rodar testes com Jest:
 ```bash
 npm test
 ```
 
+---
 
-## Autor
+##  Autor
 **Leandro Bragança da Silva**
-
-
+```
